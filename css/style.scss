@@ -136,7 +136,11 @@ a {
 
         p {
             line-height: 1.4em;
-            font-size: 1rem;
+            font-size: 1.4rem;
+
+            @media screen and (min-width: $md) {
+                font-size: 1rem;
+            }
         }
 
         h3 {
