@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="homepage">
+    <header class="main-header">
+        <div class="color-cells">
+            <div class="color-cell color-cell1"></div>
+            <div class="color-cell color-cell2"></div>
+            <div class="color-cell color-cell3"></div>
+            <div class="color-cell color-cell4"></div>
+            <div class="color-cell color-cell5"></div>
+            <div class="color-cell color-cell6"></div>
+        </div>
+    </header>
+
+    <div class="main-wrapper bg-color1">
+        <div class="content padding-lg">
+            <h1>{{ page.title }}</h1>
+            <h2>{{ page.title2 }}</h2>
+        </div>
+    </div>
+    <section>
+        <div class="main-wrapper">
+            <div class="content padding-lg">
+                {{ content }}
+            </div>
+        </div>
+        <div class="main-wrapper bg-color4">
+            <div class="content padding-lg">
+                {% include soundcloud.html %}
+            </div>
+        </div>
+        <div class="main-wrapper">
+            <div class="content padding-lg">
+                {% include studio.html %}
+            </div>
+        </div>
+        <div class="main-wrapper bg-color1">
+            <div class="content padding-lg color-reverse">
+                <h2>A propos de moi</h2>
+                <h3>Je m'appelle Benoit.</h3>
+                <img id="profile-picture" class="img-rounded profile" src="/assets/img/benoitjupillemao.jpg" />
+                <p>Je fais partie de l'équipe pédagogique du <a href="https://www.pema-paroy.com/" target="_blank">Pôle Enseignement Musical et Artistique</a> de Paroy.</p>
+                <br />
+
+                <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@bernoimusic" data-unique-id="bernoimusic" data-embed-type="creator" style="max-width: 780px; min-width: 288px;" > <section> <a target="_blank" href="https://www.tiktok.com/@bernoimusic?refer=creator_embed">@bernoimusic</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        &copy;
+    </footer>
+</body>
+
+</html>
