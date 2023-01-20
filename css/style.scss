@@ -198,6 +198,10 @@ a {
     }
 }
 
+.margin-top-lg {
+    margin-top: 4.5rem;
+}
+
 .homepage {
     h1 {
         color: $color3;
@@ -235,4 +239,9 @@ a {
     width: 100%;
     max-width: 200px;
     margin: 4.5rem auto;
+}
+
+audio {
+    filter: sepia(100%) saturate(70%) grayscale(1) contrast(99%) invert(0%);
+    width: 100%;
 }
