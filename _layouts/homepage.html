@@ -3,8 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}" />
     <link rel="stylesheet" href="/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body class="homepage">
@@ -55,7 +57,13 @@
         </div>
     </section>
     <footer>
-        &copy;
+        <div class="main-wrapper">
+            <div class="content padding-md">
+                <p>&copy; Benoit Jupille EI - Peur du noir Music Label</p>
+                <p>39600 Villette-les-Arbois</p>
+                <p>SIRET {{ site.siret }}</p>
+            </div>
+        </div>
     </footer>
 </body>
 

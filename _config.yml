@@ -20,16 +20,16 @@
 
 domain: pdn-formation.com
 url: https://www.pdn-formation.com
-title: Création musicale Arbois
+title: Cours de création musicale sur Arbois
 email: contact@pdn-formation.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Cours de création musicale sur Arbois. Beatmaking, musique assistée par ordinateur,
+  synthèse sonore... 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+siret: 79085335200025
 
 # Build settings
 theme: minima
